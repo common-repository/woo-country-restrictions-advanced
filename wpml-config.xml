@@ -1,0 +1,18 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">vcwccr_availability_operator</custom-field>
+		<custom-field action="copy">vcwccr_selected_countries</custom-field>
+		<custom-field action="copy">wcacr_disallowed_countries</custom-field>
+	</custom-fields>
+	<custom-term-fields>
+		<custom-term-field action="copy">vcwccr_availability_operator</custom-term-field>
+		<custom-term-field action="copy">vcwccr_selected_countries</custom-term-field>
+		<custom-term-field action="copy">wcacr_disallowed_countries</custom-term-field>
+		<custom-term-field action="copy">vcwccr_apply_this_to</custom-term-field>
+		<custom-term-field action="copy">vcwccr_term_products_only_meta</custom-term-field>
+	</custom-term-fields>
+	<admin-texts>
+		<key name="wccr_restricted_product_page_message" />
+		<key name="wccr_restricted_product_checkout_message" />
+	</admin-texts>
+</wpml-config>

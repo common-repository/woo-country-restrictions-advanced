@@ -1,0 +1,837 @@
+# Copyright (C) 2024 WP Super Admins
+# This file is distributed under the same license as the WooCommerce Country Restrictions - Advanced plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Country Restrictions - Advanced 1.15.2-beta.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wrapper-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-22T06:55:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Country Restrictions - Advanced"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpsuperadmins.com/plugins/woocommerce-country-catalogs-restrictions/?utm_source=wp-admin&utm_campaign=plugins-list&utm_medium=web"
+msgstr ""
+
+#. Description of the plugin
+msgid "Restricts products and variations by country, globally or product by product."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP Super Admins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpsuperadmins.com/?utm_source=wp-admin&utm_campaign=plugins-list&utm_medium=web&utm_term=country-catalogs"
+msgstr ""
+
+#: advanced-country-restrictions.php:92
+msgid "Try Premium Plugin for FREE - 7 Days"
+msgstr ""
+
+#: advanced-country-restrictions.php:144
+msgid "Country catalogs"
+msgstr ""
+
+#: inc/extend-core.php:9
+msgid "<p><a href=\"%s\" target=\"_blank\" class=\"wcacr-go-premium-link\">Open global settings</a> - <a href=\"%s\" target=\"_blank\" class=\"wcacr-go-premium-link\">Edit country restrictions by category</a></p>"
+msgstr ""
+
+#: inc/premium-teasers.php:9
+msgid "<p>Advanced features: You can apply Country Restrictions to all products and variations at once using the Global Settings.<br/>More geolocation options: Display country selector in the header, Use shipping/billing country<br/>More restriction options: Show products and disable \"add to cart\" and prices <a href=\"%s\" target=\"_blank\" class=\"wcacr-go-premium-link\"> Go Premium</a></p>"
+msgstr ""
+
+#: inc/premium-teasers.php:23
+#: inc/premium-teasers.php:70
+#: integrations/premium/dokan.php:80
+#: integrations/premium/wcfm.php:64
+#: modules/core/backend/product-category-fields.php:83
+#: modules/core/backend/product-category-fields.php:141
+#: modules/core/backend/product-custom-fields.php:19
+#: modules/core/backend/variation-custom-fields.php:19
+msgid "Country restrictions"
+msgstr ""
+
+#: inc/premium-teasers.php:28
+#: inc/premium-teasers.php:71
+msgid "Select countries. (<b>Pro</b> <a href='%s' target='_blank'>Start free trial</a>)"
+msgstr ""
+
+#: inc/premium-teasers.php:38
+#: inc/premium-teasers.php:89
+msgid "Available in selected countries. (<b>Pro</b> <a href='%s' target='_blank'>Start free trial</a>)"
+msgstr ""
+
+#: inc/premium-teasers.php:47
+#: inc/premium-teasers.php:107
+msgid "Apply this to. (<b>Pro</b> <a href='%s' target='_blank'>Start free trial</a>)"
+msgstr ""
+
+#: integrations/premium/dokan.php:35
+msgid "Dokan"
+msgstr ""
+
+#: integrations/premium/dokan.php:37
+#: integrations/premium/wcfm.php:106
+msgid "Allow to select country restrictions in the vendor dashboard?"
+msgstr ""
+
+#: integrations/premium/dokan.php:40
+#: integrations/premium/wcfm.php:109
+msgid "No, vendor products will not have custom restrictions"
+msgstr ""
+
+#: integrations/premium/dokan.php:41
+#: integrations/premium/wcfm.php:110
+msgid "Automatically restrict products to the country of the vendor"
+msgstr ""
+
+#: integrations/premium/dokan.php:42
+#: integrations/premium/wcfm.php:111
+msgid "Allow the vendor to select custom country restrictions"
+msgstr ""
+
+#: integrations/premium/dokan.php:82
+msgid "configure in which countries your product will be sold"
+msgstr ""
+
+#: integrations/premium/dokan.php:90
+#: integrations/premium/wcfm.php:74
+#: modules/core/backend/product-custom-fields.php:28
+#: modules/core/backend/variation-custom-fields.php:28
+msgid "Selected countries"
+msgstr ""
+
+#: integrations/premium/dokan.php:105
+#: integrations/premium/wcfm.php:83
+msgid "Availability"
+msgstr ""
+
+#: integrations/premium/dokan.php:105
+msgid "If product is available in selected countries"
+msgstr ""
+
+#: integrations/premium/wcfm.php:67
+msgid "Configure in which countries your product will be sold"
+msgstr ""
+
+#: integrations/premium/wcfm.php:104
+msgid "WCFM"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:39
+msgid "<hr><h3>Do you want to edit product restrictions in a Spreadsheet Quickly?</h3><a href=\"%s\" target=\"_blank\" class=\"button\">Open the bulk editor for products</a><hr>"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:43
+msgid "<hr><h3>Do you want to edit variations in a Spreadsheet Quickly?</h3><a href=\"%s\" target=\"_blank\" class=\"button\">Open the bulk editor for variations</a><hr>"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:48
+msgid "<hr><h3>Do you want to edit product restrictions in a Spreadsheet Quickly?</h3>You can install a <b>Spreadsheet Editor for Products</b> and you will see all the products in a spreadsheet table and you can select which countries can see the products and which countries cant quickly.<br><a href=\"%s\" target=\"_blank\" class=\"button\">Install the free plugin</a><hr>"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:52
+msgid "<hr><h3>Do you want to edit variation restrictions in a Spreadsheet Quickly?</h3>You can install a <b>Spreadsheet Editor for Products</b> and you will see all the products in a spreadsheet table and you can select which countries can see the products and which countries cant quickly.<br><a href=\"%s\" target=\"_blank\" class=\"button\">Install the free plugin</a><hr>"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:70
+msgid "<hr><h3>Do you want to edit coupon restrictions in a Spreadsheet Quickly?</h3><a href=\"%s\" target=\"_blank\" class=\"button\">Open the bulk editor for coupons</a><hr>"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:75
+msgid "<hr><h3>Do you want to edit coupon restrictions in a Spreadsheet Quickly?</h3>You can install a <b>Spreadsheet Editor for WooCommerce Coupons</b> and you will see all the coupons in a spreadsheet table and you can select which countries can use the coupons and which countries cant quickly.<br><a href=\"%s\" target=\"_blank\" class=\"button\">Install the free plugin</a><hr>"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:101
+msgid "You can edit the country restrictions here. You can edit hundreds of products at once, auto complete cells, and copy paste."
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:127
+msgid "Countries and continents"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:145
+msgid "Available in those countries"
+msgstr ""
+
+#: modules/core/backend/product-category-fields.php:85
+#: modules/core/backend/product-category-fields.php:146
+msgid "Select countries"
+msgstr ""
+
+#: modules/core/backend/product-category-fields.php:95
+#: modules/core/backend/product-category-fields.php:162
+#: modules/core/backend/product-custom-fields.php:39
+msgid "Available in selected countries"
+msgstr ""
+
+#: modules/core/backend/product-category-fields.php:104
+#: modules/core/backend/product-category-fields.php:177
+msgid "Apply this to"
+msgstr ""
+
+#: modules/core/backend/product-category-fields.php:363
+msgid "The restrictions are inherited from the %s: <a href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: modules/core/backend/product-custom-fields.php:42
+msgid "Establishes if the item is available or not in the selected countries"
+msgstr ""
+
+#: modules/core/backend/product-custom-fields.php:51
+msgid "Redirect to this URL when the country is restricted"
+msgstr ""
+
+#: modules/core/backend/product-custom-fields.php:54
+msgid "Leave empty to use the global settings"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:14
+msgid "Country Restrictions"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:37
+msgid "Display automatically on the first visible menu"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:38
+msgid "None. I will display manually with the shortcode"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:55
+msgid "General"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:57
+msgid "Geolocation method"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:61
+#: modules/core/backend/settings-page.php:74
+msgid "IP (Automatic)"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:62
+msgid "Show country/state selector in the header"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:63
+#: modules/core/backend/settings-page.php:75
+msgid "Shipping country/state on checkout"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:64
+#: modules/core/backend/settings-page.php:76
+msgid "Billing country/state on checkout"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:68
+msgid "Fallback geolocation method"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:69
+msgid "We use the fallback when the system does not find the user country using the primary method."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:80
+msgid "What happens when the user location is unknown?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:81
+msgid "What do we do if the primary and secondary geolocation methods failed?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:85
+msgid "Show all products"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:86
+msgid "Hide all products"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:90
+msgid "Restriction method"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:91
+msgid "What happens when the visitor country is not allowed?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:95
+msgid "Hide product from the catalog"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:96
+msgid "Show product in catalog, disable add to cart, show prices"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:97
+msgid "Show product in catalog, disable add to cart, hide prices"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:102
+msgid "Header selector"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:104
+msgid "Dropdown selector options"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:105
+msgid "What countries do you want to display in the list? Leave it empty to display the shipping countries from the WooCommerce settings."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:112
+msgid "Dropdown selector: Default country/state"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:113
+msgid "When the dropdown selector is enabled, what option is selected by default? Leave empty to use the country based on the IP of the user. Note. If the restriction is by state (not country), sometimes the state found through the IP geolocation is not reliable so you should define a default state here."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:120
+msgid "Dropdown selector: How to display the selected country"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:121
+msgid "The current country appears as a flag to use less space in the menu and the other items as a dropdown. If the restriction is by state, we always show the state name and this setting is ignored because states dont have flags"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:124
+msgid "Show the current flag only"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:125
+msgid "Show the current flag and country name"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:131
+msgid "Dropdown selector location"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:132
+msgid "You can use the shortcode: [vcwccr_country_selector] to display it anywhere"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:139
+msgid "Dropdown selector: Display a popup asking the user to select a country?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:140
+msgid "By default, the user selects the country in the header dropdown. Enable this option to display a popup once when they visit the website so they select the country before viewing the website"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:147
+msgid "Dropdown selector: Display country/state names or display country/state abbreviations?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:148
+msgid "By default, we show friendly names. Note, some states dont have abbreviations so we will always show the full name for those cases"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:151
+msgid "Friendly names"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:155
+msgid "Display a message in the header of the popup"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:156
+#: modules/core/backend/settings-page.php:172
+msgid "Leave empty to not display any intro message and only display a title and the list of countries/states"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:168
+msgid "Popup selector: Display a message in the header of the popup"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:182
+msgid "Disable the option to close the popup without selecting a location?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:183
+msgid "By default, we allow to close the popup and use the default country/state defined in the settings above. Activate this option to remove the \"close\" option from the popup"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:190
+msgid "Display option to select \"other\" location?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:191
+msgid "By default, we only allow to select one of the predefined locations, but you can enable this option to display \"other\" as an option in the list and the user will only see products without any restriction."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:198
+msgid "\"other\" location name"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:199
+msgid "By default, the \"Other\" location will be named \"Other\". But you can set any name here, for example, \"Outside the US\"."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:205
+msgid "Restriction enforcement"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:207
+msgid "Message shown in the product page when the product is restricted"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:208
+msgid "Default: This product is not available for your country."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:213
+msgid "Message shown in the checkout and cart pages when buying a restricted product"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:214
+msgid "Default: The product: {title} is not available for your country."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:219
+msgid "What happens when there are zero allowed products for the catalog pages?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:220
+msgid "Default: Show error 404 (Category not found). Catalog pages means the shop, category, tag, attribute, search pages."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:224
+msgid "Display page with message \"not found\" (error 404)"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:225
+msgid "Display the content from another page"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:226
+msgid "Display the normal page with a custom message"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:230
+msgid "Display Page when a restricted category is viewed"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:231
+msgid "You can create a beautiful page with a page builder and show that page for restricted category pages. Leave it empty to display the message from the previous options"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:239
+msgid "Message shown when the products list is restricted"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:240
+msgid "Default: We don't have products allowed for your country."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:246
+msgid "Display Page when a restricted product is viewed"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:247
+msgid "You can create a beautiful page with a page builder and show that page for restricted products. Leave it empty to display the message from the previous options"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:255
+msgid "Don't apply the location restrictions to these user roles"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:256
+msgid "By default, the restrictions dont apply to \"shop managers\" and \"administrator\""
+msgstr ""
+
+#: modules/core/backend/settings-page.php:265
+msgid "Checkout: Auto remove restricted products from the cart?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:266
+msgid "Default: We remove the restricted products and show a message indicating that it is not allowed for the country. Enable this option to display the restriction message but keep the product in the cart."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:269
+#: modules/core/backend/settings-page.php:280
+#: modules/core/backend/settings-page.php:337
+#: modules/core/backend/settings-page.php:365
+#: modules/core/backend/settings-page.php:375
+#: modules/core/inc/globals.php:124
+msgid "Yes"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:270
+#: modules/core/backend/settings-page.php:337
+#: modules/core/backend/settings-page.php:364
+#: modules/core/backend/settings-page.php:374
+#: modules/core/inc/globals.php:125
+msgid "No"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:275
+msgid "Apply country restrictions when order is created manually in the backend?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:276
+msgid "Default: We dont apply restrictions when creating an order in wp-admin > woocommerce > orders"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:279
+msgid "no"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:285
+msgid "Sync the country detection with the shipping information?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:286
+msgid "When we select a country/state in the selector, automatically set it as shipping country/state. When we change shipping country/state, automatically select it on the dropdown selector"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:293
+msgid "Only allow countries defined in the list?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:294
+msgid "When you use the country selector + IP geolocation as fallback, the visitor would show their country by default even if the country doesn't appear in your country selector list. You can select \"yes\" in this option to automatically assign to those users the first country in your list."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:301
+msgid "Products per country"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:304
+msgid "In this section you can select the countries that can/can't see your products. This applies to all products in your store. If a user is not allowed to see a product, the product won't be displayed in the store, category pages, and search pages. For example: Display my products only to USA and Canada, and hide to the rest of the world; Or show my products to all the world except USA "
+msgstr ""
+
+#: modules/core/backend/settings-page.php:308
+msgid "Select country"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:314
+msgid "Sell in selected countries/states"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:321
+msgid "Variations per country"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:327
+msgid "Variations: Select the attribute used for storing the country to hide it"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:328
+msgid "For advanced users only, ignore this if you dont know what you are doing. When you create variations for specific countries, sometimes you use an attribute to assign a country to each variation and WooCommerce shows the country attribute dropdown in the product page. Use this option to select the attribute and we will hide it from the customers"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:330
+msgid "I don't use attributes for countries"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:334
+msgid "For Advanced Users: Allow the variations redirection?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:335
+msgid "When the cache support is enabled and the customer is allowed to buy one or more variations of the product, we reload the page to refresh the variations form and remove the disallowed variations. This is good because the customer will not see disallowed options. But you can use this option to disable the refresh and show all the variation options (if they select a disallowed variation we will notify that it is not allowed)."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:342
+msgid "Category pages per country"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:345
+msgid "You can hide category pages for specific countries/states, hide all the products inside the category and category links from the menus.<br><br>You need to the categories and select which countries can see them. You can edit categories in the normal editor: <a href=\"%s\" target=\"_blank\">Go to the list of categories</a>"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:350
+msgid "Coupons per country"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:353
+msgid "You can restrict coupons by country, state, continents, or regions.<br><br>You can define the restrictions in the coupon editor. For that you can create or edit every coupon and select the country restrictions in the coupons editor > tab: \"Usage restrictions\". <a href=\"%s\" target=\"_blank\">Go to the coupons list</a>"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:358
+msgid "Compatibility with your server and setup"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:360
+msgid "Enable support for cache plugins?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:361
+msgid "If you enable this option, we will show all products in the catalog pages and we will apply the restrictions via ajax on the product page and checkout page only. If you need help contact us. Note. Do not enable this option if you are using WPRocket or WP-Optimize, we have automatic support for those plugins."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:370
+msgid "Apply restrictions on the WC REST API endpoints?"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:371
+msgid "Default: No. We only apply restrictions for the web pages, the REST API endpoints dont have restrictions."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:380
+msgid "Server key where the IP is saved"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:381
+msgid "Default: We use $_SERVER[REMOTE_ADDR]. But if your site uses a proxy, the real visitor IP might be saved in a different key. Enter the key here."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:388
+msgid "Shortcodes"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:391
+msgid "You can use these shortcodes:<br><br>[vcwccr_country_selector]  This displays the flags dropdown selector.<br><hr><br>[wccr_country countries=“US,SV,ES”]This is a great product[/wccr_country]<br><br>You can use this to show content/descriptions for specific countries or show different text in the home page, blog posts, about us, contact us page, etc based on the country of the user. <a href=\"https://wpsuperadmins.com/blog/woocommerce-product-descriptions-per-country-geolocalize-descriptions/?utm_source=wp-admin&utm_campaign=settings-page&utm_medium=country-catalogs-shortcodes\" target=\"_blank\">Tutorial</a>"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:447
+msgid "If you have variable products, in this section you can select which product variations can be viewed by some countries/states. This applies to all variable products. For example, show \"color:red\" and \"format:physical\" to the United States only. Another example, show \"size:large\" to all countries except Canada."
+msgstr ""
+
+#: modules/core/backend/settings-page.php:450
+#: modules/core/backend/settings-page.php:502
+msgid "Rules group"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:452
+#: modules/core/backend/settings-page.php:504
+msgid "Select country/state"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:463
+#: modules/core/backend/settings-page.php:515
+msgid "Select all"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:463
+#: modules/core/backend/settings-page.php:515
+msgid "Select none"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:466
+#: modules/core/backend/settings-page.php:518
+msgid "Select attributes"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:479
+#: modules/core/backend/settings-page.php:531
+msgid "Sell product variations in the selected countries/states"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:491
+#: modules/core/backend/settings-page.php:543
+msgid "Remove"
+msgstr ""
+
+#: modules/core/backend/settings-page.php:547
+msgid "Add new"
+msgstr ""
+
+#: modules/core/backend/variation-custom-fields.php:39
+msgid "Available in selected countries:"
+msgstr ""
+
+#: modules/core/backend/variation-custom-fields.php:41
+msgid "Establishes if the variation is available or not in the selected countries"
+msgstr ""
+
+#: modules/core/frontend/all-users/country-selector.php:145
+msgid "WooCommerce Advanced Country Restrictions plugin's location selector html"
+msgstr ""
+
+#: modules/core/frontend/all-users/country-selector.php:185
+msgid "Select your country"
+msgstr ""
+
+#: modules/core/frontend/all-users/country-selector.php:344
+msgid "Other"
+msgstr ""
+
+#: modules/core/frontend/cache-support.php:109
+#: modules/core/frontend/product-frontend-functions.php:74
+msgid "This product is not available for your country"
+msgstr ""
+
+#: modules/core/frontend/product-frontend-functions.php:159
+msgid "We don't have products allowed for your country"
+msgstr ""
+
+#: modules/core/inc/globals.php:8
+msgid "The product: {title} is not allowed for your country"
+msgstr ""
+
+#: modules/core/inc/globals.php:74
+msgid "Continent: %s"
+msgstr ""
+
+#: modules/core/inc/globals.php:79
+msgid "Region name: %s"
+msgstr ""
+
+#: modules/core/inc/globals.php:84
+msgid "Sub Region name: %s"
+msgstr ""
+
+#: modules/core/inc/globals.php:137
+msgid "Category only"
+msgstr ""
+
+#: modules/core/inc/globals.php:138
+msgid "Products only"
+msgstr ""
+
+#: modules/core/inc/globals.php:139
+msgid "Category and products"
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:52
+msgid "You need to save your changes to continue. Do you want to save now?"
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:111
+msgid "Restrict by"
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:112
+msgid "<span class=\"state-disclaimer\">Notes, the restriction by country works perfectly with all countries with all geolocation methods.<br><br>The restriction by state works with these countries only: %s.<br><br>The restriction by state does not work with IP geolocation (automatic detection) because the automatic detection is unreliable for small states, it only works with the dropdown selector (the user selects the state in the dropdown on the header), billing state, and shipping state."
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:116
+msgid "Country and continents"
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:117
+msgid "State or provinces of one country"
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:122
+msgid "Restrict by states of this country"
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:123
+msgid "We can restrict by states/provinces of one country only. By default, we use the base country defined in the global WooCommerce settings. You can use this option if you want to use a different base country for the state restrictions."
+msgstr ""
+
+#: modules/core/inc/restrictions-by-state.php:127
+msgid "Use the base country of the store"
+msgstr ""
+
+#: modules/core/views/frontend/selector-popup.php:85
+msgid "Close"
+msgstr ""
+
+#: views/action-buttons.php:3
+msgid "My license"
+msgstr ""
+
+#: views/action-buttons.php:5
+msgid "Buy premium plugin"
+msgstr ""
+
+#: views/action-buttons.php:7
+msgid "Need help? Contact us"
+msgstr ""
+
+#: views/welcome-page-content.php:6
+msgid "Please install the free plugin <b>\"WooCommerce\"</b>"
+msgstr ""
+
+#: views/welcome-page-content.php:9
+msgid "<p>Local server detected. On local servers your visitor IP is 127.0.0.1, which is not found in the geolocation database. You can fix it easily, add define(\"WCACR_FORCE_IP\", \"add your public ip here\"); to your wp-config.php. This is not needed when using a real/online server.</p>"
+msgstr ""
+
+#: views/welcome-page-content.php:11
+msgid "<p><b>Important</b>. We use the country restrictions only for non-admin users. Please visit your store as a real customer to test the country restrictions (without log in or logged in as customer).</p>"
+msgstr ""
+
+#: views/welcome-page-content.php:17
+msgid "<p>We detected that you are using Cache. Please activate the support for Cache in our settings page to avoid issues: the page for country A might appear for country B.</p>"
+msgstr ""
+
+#: views/welcome-page-content.php:20
+msgid "Go to the settings page to configure the product restrictions. You can show different prices per country, restrict product variations, restrict category pages, restrict blog posts, etc. <a href=\"%s\" target=\"_blank\" class=\"button\">Open global settings</a>"
+msgstr ""
+
+#: views/welcome-page-content.php:23
+msgid "<p>We detected that you are using Cache. The premium version supports all the cache plugins and systems. You need to deactivate the cache or use the premium version to avoid issues like: the page for country A appearing for country B.</p>"
+msgstr ""
+
+#: views/welcome-page-content.php:25
+msgid "You can hide individual products from selected countries. You have the option on the product editor when you create/edit the product. <a href=\"%s\" target=\"_blank\" class=\"button\">Open list of products</a>"
+msgstr ""
+
+#: views/welcome-page-content.php:29
+msgid "<p>Features in the free version:<br>You need to edit each product individually to hide them for specific countries. Global settings not available.<br>The user country is auto detected by IP.<br/>You can hide these product types by country: %s</p>"
+msgstr ""
+
+#: views/welcome-page-content.php:32
+msgid "<p>Go create or edit some products :)</p>"
+msgstr ""
+
+#: views/welcome-page-content.php:50
+msgid "Go Premium"
+msgstr ""
+
+#: views/welcome-page-content.php:52
+msgid "Create different shop catalogs for different countries"
+msgstr ""
+
+#: views/welcome-page-content.php:53
+msgid "Advanced Geolocation: Auto detect country by IP, show a country selector in the header, OR use the shipping/billing country"
+msgstr ""
+
+#: views/welcome-page-content.php:54
+msgid "Advanced restriction logic: Hide products from the catalog OR show products in the catalog and hide the prices / disable \"add to cart\""
+msgstr ""
+
+#: views/welcome-page-content.php:55
+msgid "Restrict coupons by country. You can create coupons for specific countries, continents, or regions. I.e. Coupons for Europe, Canada, etc."
+msgstr ""
+
+#: views/welcome-page-content.php:56
+msgid "Restrict category pages by country. For example, Hide the category \"Music\" for Canada and automatically remove it from the menus, categories lists, and widgets"
+msgstr ""
+
+#: views/welcome-page-content.php:57
+msgid "Restrict product attributes by country. For example, Small pants for USA, Large pants for Canada; or print pictures for USA and downloadable pictures for the rest of the world"
+msgstr ""
+
+#: views/welcome-page-content.php:58
+msgid "You can hide \"variable products\" by countries"
+msgstr ""
+
+#: views/welcome-page-content.php:59
+msgid "You can hide individual \"product variations\" by countries. For example, Small pants for USA, Large pants for Canada; or print pictures for USA and downloadable pictures for the rest of the world"
+msgstr ""
+
+#: views/welcome-page-content.php:60
+msgid "Bulk Edit Products by Category. For example, Hide all products under the category \"Music\" for Canada"
+msgstr ""
+
+#: views/welcome-page-content.php:61
+msgid "Global settings page - Apply country restrictions to all products automatically. No need to edit every product manually."
+msgstr ""
+
+#: views/welcome-page-content.php:62
+msgid "Global settings - Apply country restrictions to all products variations matching specific attributes automatically (no need to edit each product and variation)"
+msgstr ""
+
+#: views/welcome-page-content.php:65
+msgid "<b>Money back guarantee.</b> We´ll give you a refund if the plugin doesn´t work."
+msgstr ""
+
+#: views/welcome-page-content.php:82
+msgid "For developers. <a href=\"%s\" class=\"button\">Print debugging info</a>"
+msgstr ""
